@@ -1,0 +1,157 @@
+{
+    "background": {
+      "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
+      "name": "background",
+      "items": [
+        {
+          "parent": "background",
+          "name": "background",
+          "modifyTitle": "遊 戲 背 景",
+          "img": {
+            "type": "png",
+            "src": "/img/Games/PinballGame/woodenBG.png",
+            "position": {
+              "x": 180,
+              "y": 320
+            },
+            "size": 57
+          }
+        }
+      ]
+    },
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+      "name": "gameTutorialText",
+      "items": [
+        {
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
+          "text": {
+            "modifyTitle": "遊 戲 說 明",
+            "description": "遊戲開始前的遊戲說明內容",
+            "content": "看準力道的上升，\n點擊射擊按鈕發射彈珠！\n\n看你可以拿幾分，\n分數高會有大獎哦！",
+            "inputType": "text",
+            "size": 24
+          } 
+        }
+      ]
+    },
+    "pinball": {
+      "modifyTitle": "彈 珠 相 關",
+      "modifyDetail": "可以設定彈珠",
+      "name": "pinball",
+      "items": [
+        {
+          "parent": "pinball",
+          "name": "pinball",
+          "modifyTitle": "彈 珠 相 關",
+          "text": {
+            "modifyTitle": "彈 珠 的 數 量",
+            "content": 10,
+            "inputType": "number",
+            "unit": "顆",
+            "max": 10,
+            "min": 3
+          }
+          
+        }
+      ]
+    },
+    "pinballGoal": {
+      "modifyTitle": "落 下 區 域 相 關",
+      "modifyDetail": "可以設定當彈珠落到間隔會發生的事情",
+      "name": "pinballGoal",
+      "items": [
+        {
+          "parent": "pinballGoal",
+          "name": "pinballGoal1",
+          "modifyTitle": "最左邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 10,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal2",
+          "modifyTitle": "左邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 25,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal3",
+          "modifyTitle": "中間的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 100,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal4",
+          "modifyTitle": "右邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 25,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal5",
+          "modifyTitle": "最右邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 10,
+            "max": 9999,
+            "min": -999
+          }
+        }
+        
+      ]
+    },
+    "gameRule": {
+      "modifyTitle": "遊 戲 規 則",
+      "modifyDetail": "一些規則上的設定，例如力氣條的速度，要怎麼射擊彈珠等",
+      "name": "gameRule",
+      "items": [
+        {
+          "parent": "gameRule",
+          "name": "gameRule",
+          "modifyTitle": "遊 戲 規 則",
+          "priority": {
+            "modifyTitle": "力 道 增 加 速 度",
+            "content": [ "非常慢", "慢", "中等", "快", "非常快"],
+            "selected": 3
+          }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 評 價",
+      "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "評 價 文 字",
+          "gameoverMessage": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [100,50,0],
+            "message": ["太厲害了!","很不錯!","要加油!"]
+          }
+        }
+      ]
+    }
+  }

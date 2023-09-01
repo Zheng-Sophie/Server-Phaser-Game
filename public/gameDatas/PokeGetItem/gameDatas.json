@@ -1,0 +1,284 @@
+{
+    "background": {
+      "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
+      "name": "background",
+      "items": [
+        {
+          "parent": "background",
+          "name": "background",
+          "modifyTitle": "遊 戲 背 景",
+          "img": {
+            "src": "/img/Games/Common/background.png",
+            "position": {
+              "x": 400,
+              "y": 320
+            },
+            "size": 100
+          }
+        }
+      ]
+    },
+    "gameMessage": {
+      "modifyTitle": "遊 戲 裡 的 訊 息",
+      "modifyDetail": "這個訊息顯示在戳戳樂的上方，可以告訴玩家這個戳戳樂遊戲的目的等訊息",
+      "name": "gameMessage",
+      "items": [
+        {
+          "parent": "gameMessage",
+          "name": "gameMessage",
+          "modifyTitle": "訊 息",
+          "text": {
+            "modifyTitle": "訊 息",
+            "content": "戳戳看來看看吃什麼比較好！",
+            "inputType": "text",
+            "size": 24
+          } 
+        }
+      ]
+    },
+    "boxSkin": {
+      "modifyTitle": "戳 戳 樂 的 圖 案",
+      "modifyDetail": "可以改變戳戳樂盒子上的圖案",
+      "name": "boxSkin",
+      "items": [
+        {
+          "parent": "boxSkin",
+          "name": "upperLeftSkin",
+          "modifyTitle": "左 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/bear_face.png",
+            "size": 20
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "upperMiddleSkin",
+          "modifyTitle": "中 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/pig_face.png",
+            "size": 20
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "upperRightSkin",
+          "modifyTitle": "右 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/dog_face.png",
+            "size": 20
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "middleLeftSkin",
+          "modifyTitle": "左 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/cat_face.png",
+            "size": 20
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "centerSkin",
+          "modifyTitle": "正 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/fox_face.png",
+            "size": 20
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "middleRightSkin",
+          "modifyTitle": "右 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/penguin_face.png",
+            "size": 22
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "lowerLeftSkin",
+          "modifyTitle": "左 下 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/cookie_face.png",
+            "size": 50
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "lowerMiddleSkin",
+          "modifyTitle": "中 下 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/deer_face.png",
+            "size": 50
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "lowerRightSkin",
+          "modifyTitle": "右 下 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/raccoon_face.png",
+            "size": 40
+          }
+        }
+      ]
+    },
+    "boxObject": {
+      "modifyTitle": "戳 戳 樂 裡 面 的 獎 品",
+      "modifyDetail": "可以改變戳下去獲得的物品，圖片、獲得的訊息都可以更改",
+      "name": "boxObject",
+      "items": [
+        {
+          "parent": "boxObject",
+          "name": "upperLeftObject",
+          "modifyTitle": "左 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/ramen.png",
+            "size": 30
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "來吃拉麵！"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "upperMiddleObject",
+          "modifyTitle": "中 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/coffee_cup.png",
+            "size": 30
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "來喝一杯咖啡吧！"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "upperRightObject",
+          "modifyTitle": "右 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/pizza.png",
+            "size": 30
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "吃披薩吧！"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "middleLeftObject",
+          "modifyTitle": "左 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/bubbletea.png",
+            "size": 40
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "來喝珍珠奶茶"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "centerObject",
+          "modifyTitle": "正 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/drink_milk.png",
+            "size": 30
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "來喝草莓奶昔！"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "middleRightObject",
+          "modifyTitle": "右 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/bentou.png",
+            "size": 30
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "來吃便當！"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "lowerLeftObject",
+          "modifyTitle": "左 下 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/curry.png",
+            "size": 30
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "吃咖喱飯好了"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "lowerMiddleObject",
+          "modifyTitle": "中 下 方 塊",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/apple.png",
+            "size": 25
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "吃個蘋果吧"
+          }
+        },{
+          "parent": "boxObject",
+          "name": "lowerRightObject",
+          "modifyTitle": "右 下 方 塊",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/banana.png",
+            "size": 25
+          },
+          "text": {
+            "modifyTitle": "獲 得 獎 品 文 字",
+            "content": "吃香蕉吧！"
+          }
+        }
+      ]
+    },
+    "gameRule": {
+      "modifyTitle": "遊 戲 規 則",
+      "modifyDetail": "一些規則上的設定，例如玩家可以戳幾次，每次物品的位置會不會隨機等",
+      "name": "gameRule",
+      "items": [
+        {
+          "parent": "gameRule",
+          "name": "hitTimes",
+          "modifyTitle": "玩家可以戳的次數",
+          "text": {
+            "modifyTitle": "次 數",
+            "content": 2,
+            "inputType": "number",
+            "unit": "次",
+            "max": 3,
+            "min": 1
+          }
+        },{
+          "parent": "gameRule",
+          "name": "isRandom",
+          "modifyTitle": "獲得的物件位置是否隨機",
+          "selection": {
+            "modifyTitle": "選 擇 遊 戲 類 型",
+            "description": "點擊圓點決定要使用哪一個",
+            "selected": "stick",
+            "content": [{"id": "random","text": "讓物件隨機"},{"id": "stick","text": "讓物件固定"}]
+        }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 訊 息",
+      "modifyDetail": "根據玩家遊戲結束時獲得的東西，我們可以設置不同的訊息",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "遊 戲 結 束 訊 息",
+          "text": {
+            "modifyTitle": "結 束 訊 息",
+            "content": "YA！\n決定要吃這些了\n\n\n決定吃什麼真簡單！",
+            "inputType": "text",
+            "size": 20
+          } 
+        }
+      ]
+    }
+  }

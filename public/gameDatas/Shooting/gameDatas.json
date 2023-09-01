@@ -1,0 +1,240 @@
+{
+    "background": {
+      "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
+      "name": "background",
+      "items": [
+        {
+          "parent": "background",
+          "name": "background",
+          "modifyTitle": "遊 戲 背 景",
+          "img": {
+            "src": "/img/Games/Common/background.png",
+            "position": {
+              "x": 400,
+              "y": 320
+            },
+            "size": 100
+          }
+        }
+      ]
+    },
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+      "name": "gameTutorialText",
+      "items": [
+        {
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
+          "text": {
+            "modifyTitle": "遊 戲 說 明",
+            "description": "遊戲開始前的遊戲說明內容",
+            "content": "在時間內打到越多的氣球!",
+            "inputType": "text",
+            "size": 24
+          } 
+        }
+      ]
+    },
+    "gameTimer": {
+      "modifyTitle": "遊 戲 時 間",
+      "modifyDetail": "設定整個遊戲的時間限制",
+      "name": "gameTimer",
+      "items": [
+        {
+          "parent": "gameTimer",
+          "name": "gameTimer",
+          "modifyTitle": "遊 戲 時 間",
+          "text": {
+            "modifyTitle": "時 間",
+            "content": 10,
+            "inputType": "number",
+            "unit": "秒",
+            "max": 1000,
+            "min": 1
+          }
+        }
+      ]
+    },
+    "balloon": {
+      "modifyTitle": "氣 球",
+      "modifyDetail": "可以設定遊戲中上升物件的各種數值，例如：圖片、出現頻率、打破出現的文字等",
+      "name": "balloon",
+      "items": [
+        {
+          "parent": "balloon",
+          "name": "balloon1",
+          "modifyTitle": "氣 球 1",
+          "img": {
+            "src": "/img/Games/ShootingGame/balloon1.png",
+            "size": 55
+          },
+          "text": {
+            "modifyTitle": "氣 球 擊 破 文 字",
+            "content": "祝你天天開心！",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
+            "content": 50,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 1
+          }
+        },
+        {
+          "parent": "balloon",
+          "name": "balloon2",
+          "modifyTitle": "氣 球 2",
+          "img": {
+            "src": "/img/Games/ShootingGame/balloon2.png",
+            "size": 55
+          },
+          "text": {
+            "modifyTitle": "氣 球 擊 破 文 字",
+            "content": "祝你事事順利！",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
+            "content": 30,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 2 
+          }
+        },
+        {
+          "parent": "balloon",
+          "name": "balloon3",
+          "modifyTitle": "氣 球 3",
+          "img": {
+            "src": "/img/Games/ShootingGame/balloon3.png",
+            "size": 55
+          },
+          "text": {
+            "modifyTitle": "氣 球 擊 破 文 字",
+            "content": "祝你身體健康！",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
+            "content": -10,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 3 
+          }
+        },
+        {
+          "parent": "balloon",
+          "name": "balloon4",
+          "modifyTitle": "氣 球 4",
+          "img": {
+            "src": "/img/Games/ShootingGame/balloon4.png",
+            "size": 55
+          },
+          "text": {
+            "modifyTitle": "氣 球 擊 破 文 字",
+            "content": "永遠愛你！",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
+            "content": 20,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 4 
+          }
+        },
+        {
+          "parent": "balloon",
+          "name": "balloon5",
+          "modifyTitle": "氣 球 5",
+          "img": {
+            "src": "/img/Games/ShootingGame/balloon5.png",
+            "size": 55
+          },
+          "text": {
+            "modifyTitle": "氣 球 擊 破 文 字",
+            "content": "（づ￣3￣）づ╭❤～",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
+            "content": 10,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 5 
+          }
+        }
+      ]
+    },
+    "balloonSpeed": {
+      "modifyTitle": "氣 球 速 度",
+      "modifyDetail": "可以設定遊戲氣球上升時的速度，增加遊戲的難度",
+      "name": "balloonSpeed",
+      "items": [
+        {
+          "parent": "balloonSpeed",
+          "name": "balloonSpeed",
+          "modifyTitle": "氣 球 速 度",
+          "priority": {
+            "modifyTitle": "氣 球 上 升 速 度",
+            "content": [ "非常慢", "慢", "普通", "快", "非常快"],
+            "selected": 3
+          }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 評 價",
+      "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "評 價 文 字",
+          "gameoverMessage": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [100,50,0],
+            "message": ["太厲害了!","很不錯!","要加油!"]
+          }
+        },
+        {
+          "parent": "gameoverMessage",
+          "name": "gameachievement",
+          "modifyTitle": "隱 藏 成 就",
+          "modifyDetail": "玩家遊戲結束時對獲得數量比例給予不同的成就",
+          "gameachievement": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [75,40,0],
+            "message": ["成就1", "成就2", "成就3", "成就4", "成就5", "成就6"]
+          }    
+        }
+      ]
+    }
+  }

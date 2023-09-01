@@ -1,0 +1,244 @@
+{
+    "background": {
+      "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
+      "name": "background",
+      "items": [
+        {
+          "parent": "background",
+          "name": "background",
+          "modifyTitle": "遊 戲 背 景",
+          "img": {
+            "type": "png",
+            "src": "/img/Games/Common/background.png",
+            "position": {
+              "x": 400,
+              "y": 320
+            },
+            "size": 100
+          }
+        }
+      ]
+    },
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+      "name": "gameTutorialText",
+      "items": [
+        {
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
+          "text": {
+            "modifyTitle": "遊 戲 說 明",
+            "description": "遊戲開始前的遊戲說明內容",
+            "content": "點擊左右箭頭來\n接到最多配料！",
+            "inputType": "text",
+            "size": 24
+          } 
+        }
+      ]
+    },
+    "gameTimer": {
+      "modifyTitle": "遊 戲 時 間",
+      "modifyDetail": "設定整個遊戲的時間限制",
+      "name": "gameTimer",
+      "items": [
+        {
+          "parent": "gameTimer",
+          "name": "gameTimer",
+          "modifyTitle": "遊 戲 時 間",
+          "text": {
+            "modifyTitle": "時 間",
+            "content": 10,
+            "inputType": "number",
+            "unit": "秒",
+            "max": 1000,
+            "min": 1
+          }
+        }
+      ]
+    },
+    "star": {
+      "modifyTitle": "掉 落 物 件",
+      "modifyDetail": "可以設定遊戲中掉落物件的各種數值，例如：圖片、出現頻率、獲得顯示的文字等",
+      "name": "star",
+      "items": [
+        {
+          "parent": "star",
+          "name": "star1",
+          "modifyTitle": "物 件 1",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/azuki_bean.png",
+            "size": 20
+          },
+          "text": {
+            "modifyTitle": "接 到 物 件 文 字",
+            "content": "Happy!",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "接 到 物 件 得 分",
+            "content": 10,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "物 件 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 5
+          }
+        },
+        {
+          "parent": "star",
+          "name": "star2",
+          "modifyTitle": "物 件 2",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/bubble.png",
+            "size": 20
+          },
+          "text": {
+            "modifyTitle": "接 到 物 件 文 字",
+            "content": "Sad..",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "接 到 物 件 得 分",
+            "content": 20,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "物 件 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 4
+          }
+        },
+        {
+          "parent": "star",
+          "name": "star3",
+          "modifyTitle": "物 件 3",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/mango.png",
+            "size": 20
+          },
+          "text": {
+            "modifyTitle": "接 到 物 件 文 字",
+            "content": "Sad..",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "接 到 物 件 得 分",
+            "content": 30,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "物 件 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 3
+          }
+        },
+        {
+          "parent": "star",
+          "name": "star4",
+          "modifyTitle": "物 件 4",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/starch_jelly.png",
+            "size": 20
+          },
+          "text": {
+            "modifyTitle": "接 到 物 件 文 字",
+            "content": "Sad..",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "接 到 物 件 得 分",
+            "content": 40,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "物 件 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 2
+          }
+        },
+        {
+          "parent": "star",
+          "name": "star5",
+          "modifyTitle": "物 件 5",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/taro_ball.png",
+            "size": 20
+          },
+          "text": {
+            "modifyTitle": "接 到 物 件 文 字",
+            "content": "Sad..",
+            "inputType": "text"
+          },
+          "score": {
+            "modifyTitle": "接 到 物 件 得 分",
+            "content": 50,
+            "max": 100000,
+            "min": -100000
+          },
+          "priority": {
+            "modifyTitle": "物 件 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 1
+          }
+        }
+      ]
+    },
+    "player": {
+      "modifyTitle": "玩 家",
+      "modifyDetail": "可以設定遊戲玩家的圖片",
+      "name": "player",
+      "items": [
+        {
+          "parent": "player",
+          "name": "player",
+          "modifyTitle": "玩 家",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/bowl.png",
+            "size": 30,
+            "position": {
+              "x": 180,
+              "y": 410
+            }
+          }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 評 價",
+      "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "評 價 文 字",
+          "gameoverMessage": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [100,50,0],
+            "message": ["太厲害了!","很不錯!","要加油!"]
+          }
+        },
+        {
+          "parent": "gameoverMessage",
+          "name": "gameachievement",
+          "modifyTitle": "隱 藏 成 就",
+          "modifyDetail": "玩家遊戲結束時對獲得數量比例給予不同的成就",
+          "gameachievement": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [75,40,0],
+            "message": ["成就1", "成就2", "成就3", "成就4", "成就5"]
+          }    
+        }
+      ]
+    }
+  }

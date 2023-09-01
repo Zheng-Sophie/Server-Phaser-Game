@@ -1,0 +1,234 @@
+{
+  "gameTutorialText": {
+    "modifyTitle": "遊 戲 說 明",
+    "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+    "name": "gameTutorialText",
+    "items": [
+      {
+        "parent": "gameTutorialText",
+        "name": "gameTutorialText",
+        "modifyTitle": "遊 戲 說 明",
+        "text": {
+          "modifyTitle": "遊 戲 說 明",
+          "description": "遊戲開始前的遊戲說明內容",
+          "content": "讓我們來玩問答小遊戲！\n點擊答案就可以回答問題了\n\n\n來看看你是不是非常了解我！\n\n加油吧！",
+          "inputType": "text",
+          "size": 20
+        } 
+      }
+    ]
+  },
+  "questions": {
+    "modifyTitle": "問 題 集",
+    "name": "questions",
+    "items": [
+      {
+        "parent": "questions",
+        "name": "question1",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我最喜歡吃的水果是 ?",
+            "content": [{"id": 1,"text": "蘋果","answer": "X"},{"id": 2,"text": "香蕉","answer": "O"},{"id": 3,"text": "葡萄","answer": "X"},{"id": 4,"text": "芭樂","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question2",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我最喜歡電影類型是 ?",
+            "content": [{"id": 1,"text": "浪漫愛情","answer": "X"},{"id": 2,"text": "搞笑喜劇","answer": "O"},{"id": 3,"text": "恐怖","answer": "X"},{"id": 4,"text": "動作","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question3",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我最喜歡的顏色是 ?",
+            "content": [{"id": 1,"text": "紅色","answer": "X"},{"id": 2,"text": "黃色","answer": "O"},{"id": 3,"text": "粉紅色","answer": "X"},{"id": 4,"text": "綠色","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question4",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我最喜歡的動物是 ?",
+            "content": [{"id": 1,"text": "貓","answer": "X"},{"id": 2,"text": "狗","answer": "O"},{"id": 3,"text": "鸚鵡","answer": "X"},{"id": 4,"text": "蜥蜴","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question5",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "說一句我想聽到的話 ！",
+            "content": [{"id": 1,"text": "我愛你！","answer": "O"},{"id": 2,"text": "早點休息！","answer": "X"},{"id": 3,"text": "去吃大餐！","answer": "X"},{"id": 4,"text": "晚安！","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question7",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我最喜歡你身上的哪一點 ?",
+            "content": [{"id": 1,"text": "性格","answer": "O"},{"id": 2,"text": "外表","answer": "X"},{"id": 3,"text": "事業","answer": "X"},{"id": 4,"text": "都喜歡！","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question8",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我最喜歡怎麼樣的約會活動 ?",
+            "content": [{"id": 1,"text": "看電影","answer": "O"},{"id": 2,"text": "吃大餐","answer": "X"},{"id": 3,"text": "在家裡度過一天","answer": "X"},{"id": 4,"text": "遊樂園","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question9",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "未來我想和你去哪個國家旅行 ?",
+            "content": [{"id": 1,"text": "法國","answer": "X"},{"id": 2,"text": "義大利","answer": "O"},{"id": 3,"text": "日本","answer": "X"},{"id": 4,"text": "希臘","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question12",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我的生日是哪一天 ?",
+            "content": [{"id": 1,"text": "3/12","answer": "X"},{"id": 2,"text": "7/28","answer": "O"},{"id": 3,"text": "10/5","answer": "X"},{"id": 4,"text": "5/5","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      },{
+        "parent": "questions",
+        "name": "question13",
+        "modifyTitle": "問 題",
+        "question": {
+            "modifyTitle": "問 題 編 輯",
+            "description": "點擊圓點決定正確的選項",
+            "question": "我最喜歡你性格上的哪一點 ?",
+            "content": [{"id": 1,"text": "溫柔體貼","answer": "O"},{"id": 2,"text": "誠實","answer": "X"},{"id": 3,"text": "努力充實自己","answer": "X"},{"id": 4,"text": "幽默","answer": "X"}],
+            "size": 28
+        },
+        "score": {
+          "modifyTitle": "本 題 目 獲 得 分 數",
+          "content": 10, 
+          "max": 1000,
+          "min": -1000
+        }
+      }
+    ]
+  },
+  "gameRule": {
+    "modifyTitle": "遊 戲 規 則",
+    "modifyDetail": "一些規則上的設定，例如問題的題目是不是按順序的",
+    "name": "gameRule",
+    "items": [
+      {
+        "parent": "gameRule",
+        "name": "isRandom",
+        "modifyTitle": "題目是否按照順序出現",
+        "selection": {
+          "modifyTitle": "選 擇 遊 戲 類 型",
+          "description": "點擊圓點決定要使用哪一個",
+          "selected": "stick",
+          "content": [{"id": "random","text": "是隨機的"},{"id": "stick","text": "是固定的"}]
+      }
+      }
+    ]
+  },
+  "gameoverMessage": {
+    "modifyTitle": "遊 戲 結 束 評 價",
+    "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
+    "name": "gameoverMessage",
+    "items": [
+      {
+        "parent": "gameoverMessage",
+        "name": "gameoverMessage",
+        "modifyTitle": "評 價 文 字",
+        "gameoverMessage": {
+          "modifyTitle": "遊 戲 結 束 評 價",
+          "description": "玩家遊戲結束時對分數進行不同的評價",
+          "score": [100,50,0],
+          "message": ["太厲害了!","很不錯!","要加油!"]
+        }
+      }
+    ]
+  }
+}
