@@ -153,5 +153,21 @@
           }
         }
       ]
+    },
+    "gameEndTimer": {
+      "modifyTitle": "遊 戲 關 閉 時 間",
+      "modifyDetail": "設定遊戲是否在特定時間後關閉",
+      "name": "gameEndTimer",
+      "items": [
+        {
+          "parent": "gameEndTimer",
+          "name": "gameEndTimer",
+          "modifyTitle": "時間",
+          "gameEndTimer": {
+            "modifyTitle": "關閉時間",
+            "days": [2023, 11, 30, 23, 59]
+          } 
+        }
+      ]
     }
   }

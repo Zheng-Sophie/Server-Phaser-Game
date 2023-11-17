@@ -74,7 +74,7 @@
           },
           "text": {
             "modifyTitle": "接 到 物 件 文 字",
-            "content": "Happy!",
+            "content": "紅豆~",
             "inputType": "text"
           },
           "score": {
@@ -99,7 +99,7 @@
           },
           "text": {
             "modifyTitle": "接 到 物 件 文 字",
-            "content": "Sad..",
+            "content": "珍珠~",
             "inputType": "text"
           },
           "score": {
@@ -124,7 +124,7 @@
           },
           "text": {
             "modifyTitle": "接 到 物 件 文 字",
-            "content": "Sad..",
+            "content": "芒果~",
             "inputType": "text"
           },
           "score": {
@@ -149,7 +149,7 @@
           },
           "text": {
             "modifyTitle": "接 到 物 件 文 字",
-            "content": "Sad..",
+            "content": "粉粿~",
             "inputType": "text"
           },
           "score": {
@@ -174,7 +174,7 @@
           },
           "text": {
             "modifyTitle": "接 到 物 件 文 字",
-            "content": "Sad..",
+            "content": "芋圓~",
             "inputType": "text"
           },
           "score": {
@@ -235,10 +235,25 @@
           "gameachievement": {
             "modifyTitle": "遊 戲 結 束 評 價",
             "description": "玩家遊戲結束時對分數進行不同的評價",
-            "score": [75,40,0],
             "message": ["成就1", "成就2", "成就3", "成就4", "成就5"]
           }    
         }
       ]
+    },
+    "gameEndTimer": {
+      "modifyTitle": "遊 戲 關 閉 時 間",
+      "modifyDetail": "設定遊戲是否在特定時間後關閉",
+      "name": "gameEndTimer",
+      "items": [
+        {
+          "parent": "gameEndTimer",
+          "name": "gameEndTimer",
+          "modifyTitle": "時間",
+          "gameEndTimer": {
+            "modifyTitle": "關閉時間",
+            "days": [2023, 11, 30, 23, 59]
+          } 
+        }
+      ]
     }
-  }
+}

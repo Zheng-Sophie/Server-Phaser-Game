@@ -209,7 +209,7 @@
           "description": "點擊圓點決定要使用哪一個",
           "selected": "stick",
           "content": [{"id": "random","text": "是隨機的"},{"id": "stick","text": "是固定的"}]
-      }
+        }
       }
     ]
   },
@@ -228,6 +228,22 @@
           "score": [100,50,0],
           "message": ["太厲害了!","很不錯!","要加油!"]
         }
+      }
+    ]
+  },
+  "gameEndTimer": {
+    "modifyTitle": "遊 戲 關 閉 時 間",
+    "modifyDetail": "設定遊戲是否在特定時間後關閉",
+    "name": "gameEndTimer",
+    "items": [
+      {
+        "parent": "gameEndTimer",
+        "name": "gameEndTimer",
+        "modifyTitle": "時間",
+        "gameEndTimer": {
+          "modifyTitle": "關閉時間",
+          "days": [2023, 11, 30, 23, 59]
+        } 
       }
     ]
   }
