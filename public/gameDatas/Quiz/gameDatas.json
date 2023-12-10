@@ -1,4 +1,25 @@
 {
+  "background": {
+    "modifyTitle": "遊 戲 背 景",
+    "modifyDetail": "可以更改遊戲背景中的圖片",
+    "name": "background",
+    "items": [
+      {
+        "parent": "background",
+        "name": "background",
+        "modifyTitle": "遊 戲 背 景",
+        "img": {
+          "type": "png",
+          "src": "/img/Games/Common/background.png",
+          "position": {
+            "x": 400,
+            "y": 320
+          },
+          "size": 100
+        }
+      }
+    ]
+  },
   "gameTutorialText": {
     "modifyTitle": "遊 戲 說 明",
     "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
@@ -242,7 +263,7 @@
         "modifyTitle": "時間",
         "gameEndTimer": {
           "modifyTitle": "關閉時間",
-          "days": [2023, 11, 30, 23, 59]
+          "days": [2023, 12, 31, 23, 59]
         } 
       }
     ]

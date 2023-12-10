@@ -1,0 +1,199 @@
+{
+    "background": {
+      "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
+      "name": "background",
+      "items": [
+        {
+          "parent": "background",
+          "name": "background",
+          "modifyTitle": "遊 戲 背 景",
+          "img": {
+            "type": "png",
+            "src": "/img/Games/CookingGame/kitchenBG.jpg",
+            "position": {
+              "x": 400,
+              "y": 320
+            },
+            "size": 105
+          }
+        }
+      ]
+    },
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+      "name": "gameTutorialText",
+      "items": [
+        {
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
+          "text": {
+            "modifyTitle": "遊 戲 說 明",
+            "content": "快速將排組配對起來吧\n時間越少分數越高喔",
+            "inputType": "text",
+            "size": 22
+          } 
+        }
+      ]
+    },
+    "card_back": {
+        "modifyTitle": "牌 背 圖 案",
+        "modifyDetail": "設定遊戲中卡牌背面的圖片",
+        "name": "card_back",
+        "items": [
+          {
+            "parent": "card_back",
+            "name": "card_back",
+            "modifyTitle": "牌 背",
+            "img": {
+              "src": "/img/Games/CookingGame/egg_bucket.png",
+              "size": 35,
+              "position": {
+                "x": 130,
+                "y": 340
+              }
+            }
+          }
+        ]
+    },
+    "card_front": {
+      "modifyTitle": "配 對 圖 案",
+      "modifyDetail": "可以設定遊戲中卡牌配對的圖案",
+      "name": "card_front",
+      "items": [
+        {
+          "parent": "card_front",
+          "name": "card_front_1",
+          "modifyTitle": "圖 案 一",
+          "img": {
+            "src": "/img/Games/ShootingGame/baloon1.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        },{
+          "parent": "card_front",
+          "name": "card_front_2",
+          "modifyTitle": "圖 案 二",
+          "img": {
+            "src": "/img/Games/ShootingGame/baloon2.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        },{
+          "parent": "card_front",
+          "name": "card_front_3",
+          "modifyTitle": "圖 案 三",
+          "img": {
+            "src": "/img/Games/ShootingGame/baloon3.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        },{
+          "parent": "card_front",
+          "name": "card_front_4",
+          "modifyTitle": "圖 案 四",
+          "img": {
+            "src": "/img/Games/ShootingGame/baloon4.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        },{
+          "parent": "card_front",
+          "name": "card_front_5",
+          "modifyTitle": "圖 案 五",
+          "img": {
+            "src": "/img/Games/ShootingGame/baloon5.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        },{
+          "parent": "card_front",
+          "name": "card_front_6",
+          "modifyTitle": "圖 案 六",
+          "img": {
+            "src": "/img/Games/ShootingGame/mouse_newYear.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        },{
+          "parent": "card_front",
+          "name": "card_front_7",
+          "modifyTitle": "圖 案 七",
+          "img": {
+            "src": "/img/Games/ShootingGame/cow_newYear.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        },{
+          "parent": "card_front",
+          "name": "card_front_8",
+          "modifyTitle": "圖 案 八",
+          "img": {
+            "src": "/img/Games/ShootingGame/tiger_newYear.png",
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
+          }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 評 價",
+      "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "評 價 文 字",
+          "gameoverMessage": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [100,50,0],
+            "message": ["太厲害了!","很不錯!","要加油!"]
+          }
+        }
+      ]
+    },
+    "gameEndTimer": {
+      "modifyTitle": "遊 戲 關 閉 時 間",
+      "modifyDetail": "設定遊戲是否在特定時間後關閉",
+      "name": "gameEndTimer",
+      "items": [
+        {
+          "parent": "gameEndTimer",
+          "name": "gameEndTimer",
+          "modifyTitle": "時間",
+          "gameEndTimer": {
+            "modifyTitle": "關閉時間",
+            "days": [2023, 11, 30, 23, 59]
+          } 
+        }
+      ]
+    }
+  }

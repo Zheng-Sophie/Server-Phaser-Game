@@ -251,7 +251,7 @@
           "modifyTitle": "時間",
           "gameEndTimer": {
             "modifyTitle": "關閉時間",
-            "days": [2023, 11, 30, 23, 59]
+            "days": [2023, 12, 31, 23, 59]
           } 
         }
       ]
